@@ -23,5 +23,41 @@ let booleanIsLoggedIn = Boolean(isloggedIn)
 let someNumber = 33
 
 let stringNumber = String(someNumber)
-console.log(stringNumber);
-console.log(typeof stringNumber);
+// console.log(stringNumber);
+// console.log(typeof stringNumber);
+
+let value = 3
+let negValue = -value
+//console.log(negValue);
+
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2**2);
+// console.log(2/2);
+// console.log(2%2);
+
+str1 = "amar"
+str2 = " manish"
+str3 = str1 + str2
+
+// console.log(str3);
+
+// console.log("1" + 2 );
+// console.log(1 + "2");
+// console.log("1" + 2 + 2);
+// console.log(1 + 2 + "2");
+
+//console.log((3 + 2)* 5 % 3);
+
+console.log(+true);
+console.log(+"");
+
+let gameCounter = 100
+++gameCounter;    //precidence operator, prefix and postfix
+console.log(gameCounter);
+
+// link to study
+// https://tc39.es/ecma262/multipage/abstract-operations.html#sec-type-conversion
+
+

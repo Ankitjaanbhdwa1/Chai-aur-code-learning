@@ -32,3 +32,33 @@ const myfunction = function(){
 }
 
 console.log(typeof outsideTemp);
+
+
+
+
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+//memory type in js
+
+//stack (primitive)we get copy of declared variable, //heap (non-primitive)we get refernce from original value
+
+let myYoutubeName = "amarjeetchoudharydotcom"
+let anotherName = myYoutubeName
+anotherName = "chaiaurcode"
+
+console.log(myYoutubeName);
+console.log(anotherName);
+
+let userOne = {
+    email: "user@gmail.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+userTwo.email = "amarjeetchoudhary647@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
